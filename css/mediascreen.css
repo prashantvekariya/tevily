@@ -1,0 +1,107 @@
+@media screen and (max-width:991px) {
+
+    header {
+        position: relative;
+    }
+
+    .mob-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: white;
+        width: 250px;
+        height: 100vh;
+        box-shadow: 0 0 2px black;
+        overflow: auto;
+        z-index: 10;
+        transition: 1s;
+
+    }
+    .mob-menu li a i{
+        position: absolute;
+        right: 10px;
+    }
+    .mob-menu-bar li{
+        border-bottom: 1px solid gray;
+    }
+    .mob-logo{
+        padding: 10px ;
+        background: #faf5ee;
+    }
+    .mob-logo img {
+        width: 100px !important;
+    }
+    .mob-menu-bar{
+        padding: 0 10px;
+    }
+    .mob-menu-bar li a {
+        display: block;
+        padding: 10px 0;
+        color: #313041;
+    }
+    .mob-sub-menu li{
+        border-bottom: none;
+        padding-left: 20px;
+    }
+
+    .close {
+        left: -100%;
+    }
+
+    .open {
+        left: 0;
+    }
+    .btn1{
+        background: transparent;
+        border: none;
+    }
+    .icon-2{
+        margin-top: -85px;
+    }
+    .g-color{
+        background:transparent !important;
+    }
+   
+}
+@media screen and (max-width:767px){
+    .right-text h3{
+        font-size: 35px;
+    }
+    .icon-2{
+        margin: 0px !important;
+    }
+    .img4{
+        height: 300px;
+    }
+    .img4::before{
+        width: 0;
+        height: 0;
+    }
+    .img4{
+        height: 300px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+ 
+    }
+    .right-text-2{
+        padding: 65px 15px;
+    }
+    
+    
+}
+
+@media screen and (max-width:575px) {
+    .text h1{
+        font-size: 30px;
+    }
+    .text h2{
+        font-size: 20px;
+    }
+    .owl-carousel .owl-nav button.owl-prev,.owl-carousel .owl-nav button.owl-next{
+        display: none;
+    }
+   
+}
+
